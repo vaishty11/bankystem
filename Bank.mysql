@@ -1,0 +1,18 @@
+create database bannkmanagement; 
+show databases;
+use bannkmanagement;
+create table signup(formno varchar(20),name varchar(20),father_name varchar(20),dob varchar(20),gender varchar(20),email varchar(40),marital_status varchar(20),address varchar(40),city varchar(20),state varchar(20),pin varchar(20));
+show tables; 
+select *from signup; 
+create table signupTwo(Form_no varchar(20),Religion varchar(20),Category varchar(20),Income varchar(20),Education varchar(20),Occupation varchar(40),Pan varchar(20),Aadhar varchar(40),Senior_citizen varchar(20),Existing_account varchar(20));
+show tables; 
+select *from signuptwo;
+create table signupThreee(formno varchar(20),ACCOUNT_TYPE varchar(40),CARD_NO varchar(40),PIN_NO varchar(20),SERVICES varchar(100)); 
+show tables;
+create table loginn(formno varchar(20),CARD varchar(40),PIN varchar(20)); 
+show tables;
+select *from signupthreee; 
+select *from loginn; 
+drop table bank;
+create table bank(PIN varchar(20),date varchar(50),type varchar(100),amount varchar(20));
+select *from bank;
